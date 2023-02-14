@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("./img/samsung-uk-roOETBSa8mA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  color: #fff;
+}
+#title,
+#description {
+  text-align: center;
+}
+#survey-form {
+  width: 80%;
+  background-color: rgb(127, 86, 165, 0.5);
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  max-width: 500px;
+}
+.inline {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group input,
+select,
+option {
+  padding: 15px;
+  border: none;
+  margin: 10px 0 10px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+#comment {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0 30px;
+}
+
+#submit {
+  padding: 15px;
+  background-color: rgb(41, 214, 107);
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 4px;
+}
+label {
+  font-size: 17px;
+  font-weight: 700;
+}
